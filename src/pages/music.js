@@ -6,7 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const music = () => {
-  return <Layout>music</Layout>
+  return <Layout>      <SEO title="Music" />
+  <h1>music</h1></Layout>
 }
 
 export default music
