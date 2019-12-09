@@ -12,7 +12,7 @@ const IndexPage = () => (
 
 
 
-    <div style={{ maxWidth: `700px`, marginBottom: `1.45rem` }}>
+    <div style={{ width: `90%`, marginBottom: `1.45rem` }}>
       <img src={eye} />
 
     </div>

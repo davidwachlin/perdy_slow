@@ -3,30 +3,47 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      border: "1px solid black",
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header>
+    <nav className="navbar">
+      <span className="navbar-toggle" id="js-navbar-toggle">
+        <i className="fas fa-bars"></i>
+      </span>
+      <h1 className="logo" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {siteTitle} :
         </Link>
       </h1>
-    </div>
+      <ul className="main-nav" id="js-menu">
+        <li></li>
+        <li>
+          <Link to="/shows" className="nav-links">
+            shows
+          </Link>
+        </li>
+        <li>
+          <Link
+          to="/music"className="nav-links">
+            music
+          </Link>
+        </li>
+        <li>
+        <Link
+          to="/about"className="nav-links">
+            about
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className="nav-links">
+            contact
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 
