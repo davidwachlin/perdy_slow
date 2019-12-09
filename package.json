@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "perdy-slow",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "website for perdy slow",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "David Wachlin <davidwachlin@gmail.com>",
   "dependencies": {
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
