@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()} David Wachlin</footer>
+        <footer>© {new Date().getFullYear()} <a href='https://www.davidwachlin.com' >David Wachlin</a></footer>
       </div>
     </>
   )
